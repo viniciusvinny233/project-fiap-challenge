@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rede Social Estilo Twitter</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Lado Esquerdo -->
+    <div class="left">
+        <div class="topo-pagina">
+            <img src="../img/new_logo_small.png" alt="Logo" class="logo"
+                style="margin-bottom: 40px; width: 15rem; margin-top: 18px;">
+        </div>
+        <div class="conteudo-esquerdo">
+            <ul>
+                <a style="text-decoration: none; color: white;" href="../../index.html">
+                    <li><img style="width: 40px; margin-right: 10px;" src="../img/houseicon.png"> Página Inicial
+                    </li>
+                </a>
+                <a style="text-decoration: none; color: white;" href="profile.html">
+                    <li><img style="width: 40px; margin-right: 10px;" src="../img/usericon.png"> <b>Meu Perfil</b></li>
+                </a>
+                <a style="text-decoration: none; color: white;" href="salvos.html">
+                    <li><img style="width: 40px; margin-right: 10px;" src="../img/salvoicon.png"> Itens Salvos</li>
+                </a>
+                <a style="text-decoration: none; color: white;" href="desafio.html">
+                    <li><img style="width: 40px; margin-right: 10px;" src="../img/planticon.png"> Desafios</li>
+                </a>
+                <a style="text-decoration: none; color: white;" href="maps.html">
+                    <li><img style="width: 40px; margin-right: 10px;" src="../img/localicon.png"> Mapa Sustentável</li>
+                </a>
+            </ul>
+            <button class="post-button">Postar</button>
+        </div>
+        <div class="config-button" style="display: flex; position: fixed; align-items: end;">
+            <div>
+                <a style="text-decoration: none; color: white;" href="pitch.html">
+                    <div style="display: flex;">
+                        <img style="width: 40px; margin-right: 10px;" src="../img/recordicon.png"> Vídeo Pitch
+                    </div>
+                </a>
+                <a style="text-decoration: none; color: white;" href="about.html">
+                    <div style="display: flex; margin-top: 20px;">
+                        <img style="width: 40px; margin-right: 10px;" src="../img/infoicon.png"> Sobre o projeto
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Centro -->
+    <div class="center">
+        <div class="topo-pagina">
+        </div>
+        <div class="conteudo-centro">
+            <div class="publish-button" style="vertical-align: middle; display: flex;"><img style="width: 50px;"
+                    src="../img/plusicon.png">
+                <div
+                    style="align-self: center; font-size: 30px; margin-left: 10px; font-family: 'Questrial', sans-serif; color: #D9D9D9;">
+                    Publicar um post ou uma dica</div>
+            </div>
+            <div class="posts">
+                <!-- Exemplo de Post -->
+                <div class="post"
+                    style="padding: 20px; color: black; background-image: linear-gradient(to right, #03A532, #04A433);">
+                    <div style="display: flex; justify-content: space-between; padding-bottom: 10px;">
+                        <div style="display: flex;">
+                            <img style="width: 55px; margin-right: 10px; margin-left: -6px;" src="../img/person1.png">
+                            <div
+                                style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;">
+                                <span class="username">Renata Vasconcelos</span>
+                                <span class="handle">@revasqs</span>
+                            </div>
+                        </div>
+                        <p
+                            style="font-size: 30px; font-family: 'League Spartan', sans-serif; font-weight: bold; width: 30vh; text-align: end; margin: 0;">
+                            armazenamento de cenoura</p>
+                    </div>
+                    <p class="message">Hoje fui na casa da minha prima e descobri um truque pra armazenar cenoura que eu
+                        nunca tinha ouvido antes. Ela me disse que faz durar muito mais tempo e fica toda bonitinha!
+                        <br>
+                        O truque é simples: Só precisa colocar a cenoura dentro da água, com o lado do caule pra cima.
+                        Ela me explicou que, como a cenoura é uma raiz, dessa forma ela absorve água e permanece
+                        crocante e laranjinha por mais tempo!
+                    </p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="actions">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/love.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/share.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/comments.png">
+                        </div>
+                        <p style="margin: 0; font-weight: 200; cursor: pointer;">Traducir al español</p>
+                    </div>
+                </div>
+                <div class="post"
+                    style="padding: 20px; color: white; background-image: linear-gradient(to right, #0D1617, #0D1617);">
+                    <div style="display: flex; justify-content: space-between; padding-bottom: 10px;">
+                        <div style="display: flex;">
+                            <img style="width: 55px; margin-right: 10px; margin-left: -6px;" src="../img/person1.png">
+                            <div
+                                style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;">
+                                <span class="username">Renata Vasconcelos</span>
+                                <span class="handle">@revasqs</span>
+                            </div>
+                        </div>
+                        <p
+                            style="font-size: 30px; font-family: 'League Spartan', sans-serif; font-weight: bold; width: 30vh; text-align: end; margin: 0;">
+                            armazenamento de cenoura</p>
+                    </div>
+                    <p class="message">Hoje fui na casa da minha prima e descobri um truque pra armazenar cenoura que eu
+                        nunca tinha ouvido antes. Ela me disse que faz durar muito mais tempo e fica toda bonitinha!
+                        <br>
+                        O truque é simples: Só precisa colocar a cenoura dentro da água, com o lado do caule pra cima.
+                        Ela me explicou que, como a cenoura é uma raiz, dessa forma ela absorve água e permanece
+                        crocante e laranjinha por mais tempo!
+                    </p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="actions">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/lovegreen.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/sharegreen.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/commentsgreen.png">
+                        </div>
+                        <p style="margin: 0; font-weight: 200; cursor: pointer;">Traducir al español</p>
+                    </div>
+                </div>
+                <div class="post"
+                    style="padding: 20px; color: black; background-image: linear-gradient(to right, #03A532, #04A433);">
+                    <div style="display: flex; justify-content: space-between; padding-bottom: 10px;">
+                        <div style="display: flex;">
+                            <img style="width: 55px; margin-right: 10px; margin-left: -6px;" src="../img/person1.png">
+                            <div
+                                style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;">
+                                <span class="username">Renata Vasconcelos</span>
+                                <span class="handle">@revasqs</span>
+                            </div>
+                        </div>
+                        <p
+                            style="font-size: 30px; font-family: 'League Spartan', sans-serif; font-weight: bold; width: 30vh; text-align: end; margin: 0;">
+                            armazenamento de cenoura</p>
+                    </div>
+                    <p class="message">Hoje fui na casa da minha prima e descobri um truque pra armazenar cenoura que eu
+                        nunca tinha ouvido antes. Ela me disse que faz durar muito mais tempo e fica toda bonitinha!
+                        <br>
+                        O truque é simples: Só precisa colocar a cenoura dentro da água, com o lado do caule pra cima.
+                        Ela me explicou que, como a cenoura é uma raiz, dessa forma ela absorve água e permanece
+                        crocante e laranjinha por mais tempo!
+                    </p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="actions">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/love.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/share.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/comments.png">
+                        </div>
+                        <p style="margin: 0; font-weight: 200; cursor: pointer;">Traducir al español</p>
+                    </div>
+                </div>
+                <div class="post"
+                    style="padding: 20px; color: white; background-image: linear-gradient(to right, #0D1617, #0D1617);">
+                    <div style="display: flex; justify-content: space-between; padding-bottom: 10px;">
+                        <div style="display: flex;">
+                            <img style="width: 55px; margin-right: 10px; margin-left: -6px;" src="../img/person1.png">
+                            <div
+                                style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center;">
+                                <span class="username">Renata Vasconcelos</span>
+                                <span class="handle">@revasqs</span>
+                            </div>
+                        </div>
+                        <p
+                            style="font-size: 30px; font-family: 'League Spartan', sans-serif; font-weight: bold; width: 30vh; text-align: end; margin: 0;">
+                            armazenamento de cenoura</p>
+                    </div>
+                    <p class="message">Hoje fui na casa da minha prima e descobri um truque pra armazenar cenoura que eu
+                        nunca tinha ouvido antes. Ela me disse que faz durar muito mais tempo e fica toda bonitinha!
+                        <br>
+                        O truque é simples: Só precisa colocar a cenoura dentro da água, com o lado do caule pra cima.
+                        Ela me explicou que, como a cenoura é uma raiz, dessa forma ela absorve água e permanece
+                        crocante e laranjinha por mais tempo!
+                    </p>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="actions">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/lovegreen.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/sharegreen.png">
+                            <img style="width: 30px; margin-right: 10px;" src="../img/commentsgreen.png">
+                        </div>
+                        <p style="margin: 0; font-weight: 200; cursor: pointer;">Traducir al español</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- Lado Direito -->
+    <div class="right">
+        <div class="topo-pagina">
+            <div class="contagem-coins">
+                <img src="../img/coins_logo.png" alt="Logo" class="logo">
+                <span style="font-weight: bold; font-size: 39px; margin-top: 10px; margin-left: 5px;">570</span>
+            </div>
+        </div>
+        <!-- Box de Pesquisa -->
+        <div class="conteudo-direito">
+            <div class="search-box">
+                <input type="text" class="input-pesquisa" placeholder="Pesquisar publicação...">
+                <div class="lista-sugestao">
+                    <div class="sugestao">Datas Comemorativas</div>
+                    <div class="sugestao">Saúde</div>
+                    <div class="sugestao">Beleza</div>
+                    <div class="sugestao">Energia</div>
+                    <div class="sugestao">Armazenamento de alimentos</div>
+                    <div class="sugestao">Restaurantes</div>
+                    <div class="sugestao">Alimentação</div>
+                    <div class="sugestao">Presentes</div>
+                    <div class="sugestao">Cosmetologia</div>
+                    <div class="sugestao">Economia</div>
+                </div>
+            </div>
+            <!-- Box de Ranking -->
+            <div class="ranking-box">
+                <h3 class="title-ranking">Ranking de Agosto</h3>
+                <!-- Exemplo de Usuário -->
+                <div class="user">
+                    <img class="box-perfil" src="../img/person1.png">
+
+                    <div class="infos-perfil">
+                        <span class="username">Lucas de Souza</span>
+                        <span class="handle">@lucasdesouza</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img class="box-perfil" src="../img/person2.png">
+                    <div class="infos-perfil">
+                        <span class="username">Mikayla Silva</span>
+                        <span class="handle">@mikas</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img class="box-perfil" src="../img/person3.png">
+                    <div class="infos-perfil">
+                        <span class="username">Renata Vasconcelos</span>
+                        <span class="handle">@revasqs</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Box de Em Alta -->
+            <div class="trending-box">
+                <h3 class="title-ranking">Em Alta</h3>
+                <div class="user">
+                    <img class="box-perfil" src="../img/person1.png">
+                    <div class="infos-perfil">
+                        <span class="username">Lucas de Souza</span>
+                        <span class="handle">@lucasdesouza</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img class="box-perfil" src="../img/person2.png">
+                    <div class="infos-perfil">
+                        <span class="username">Mikayla Silva</span>
+                        <span class="handle">@mikas</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img class="box-perfil" src="../img/person3.png">
+                    <div class="infos-perfil">
+                        <span class="username">Renata Vasconcelos</span>
+                        <span class="handle">@revasqs</span>
+                        <div style="display: flex;">
+                            <img src="../img/coins_logo.png" alt="Logo"
+                                style="width: 25px; padding-right: 7px; height: 25px; margin-top: 2px;">
+                            <span class="points">582</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
