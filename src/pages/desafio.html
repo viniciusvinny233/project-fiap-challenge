@@ -27,6 +27,61 @@
             <img src="../img/new_logo_small.png" alt="Logo" class="logo"
                 style="margin-bottom: 40px; width: 15rem; margin-top: 18px;">
         </div>
+
+        <div id="blackout-page-id" class="blackout-page">
+        </div>
+        
+        <div id="box-post-id" class="box-post" style="color: #D9D9D9;">
+            <div style="display: flex; justify-content: space-between;">
+                <div
+                    style="font-family: 'Questrial', sans-serif; padding: 40px 40px 0px 30px; font-size: 35px; margin-bottom: -5px;">
+                    Escolha
+                    se sua publicação será:</div>
+                <div style="font-family: 'Questrial', sans-serif; padding: 40px 40px 0px 30px; font-size: 35px; margin-bottom: -20px; font-weight: bold; cursor: pointer;"
+                    id="fechar-box-id">
+                    x</div>
+            </div>
+            <div style="display: flex; padding: 20px; justify-content: center; flex-direction: column;">
+                <div style="display: flex; margin-bottom: -50px; cursor: pointer;">
+                    <img src="../img/checkicon.png" alt="Logo" class="logo"
+                        style="margin-bottom: 40px; width: 80px; margin-top: 18px;">
+                    <div
+                        style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; margin-bottom: 30px; margin-left: 15px;">
+                        POST</div>
+                    <div
+                        style=" font-family: 'Questrial', sans-serif; font-size: 20px; display: flex; align-items: center; margin: 0px 30px 30px 30px; ">
+                        (Postagens longas, artigos, fotos, e até vídeos! O que você sentir vontade de compartilhar)
+                    </div>
+                </div>
+                <div style="display: flex; ; cursor: pointer;">
+                    <img src="../img/checkicon.png" alt="Logo" class="logo"
+                        style="margin-bottom: 40px; width: 80px; margin-top: 18px;">
+                    <div
+                        style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; margin-bottom: 30px; margin-left: 15px;">
+                        DICA</div>
+                    <div
+                        style=" font-family: 'Questrial', sans-serif; font-size: 20px; display: flex; align-items: center; margin: 0px 30px 30px 30px; ">
+                        (Postagens de texto curto contendo uma dica pro pessoal ver de forma rápida. Você pode linkar
+                        outras publicações pra quem quiser se aprofundar)
+                    </div>
+                </div>
+                <div class="box-title-post">
+                    <input
+                        style="background-color: #132122; border: none; font-family: 'Questrial', sans-serif; padding: 30px 30px 0px 30px; font-size: 22px; color: white; outline: none; "
+                        type="text" placeholder="Digite aqui o título da sua postagem...">
+                </div>
+                <div class="box-desc-post">
+                    <textarea
+                        style="background-color: #132122; border: none; font-family: 'Questrial', sans-serif; padding: 30px; font-size: 22px; color: white; outline: none; height: 50vh; word-break: break-word; resize: none; width: 85vh; height: 20vh; "
+                        placeholder="Digite aqui a sua postagem..."></textarea>
+                    <div id="postar-id"
+                        style="display: flex; justify-content: end; position: absolute; bottom: 0; margin-left: 62vh;">
+                        <button class="post-button" style="width: 25vh; margin: 0px 30px 30px 30px; ">Postar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
         <div class="conteudo-esquerdo">
             <ul>
                 <a style="text-decoration: none; color: white;" href="../../index.html">
@@ -46,7 +101,7 @@
                     <li><img style="width: 40px; margin-right: 10px;" src="../img/localicon.png"> Mapa Sustentável</li>
                 </a>
             </ul>
-            <button class="post-button">Postar</button>
+            <button id="postar-show-id" class="post-button">Postar</button>
         </div>
         <div class="config-button" style="display: flex; position: fixed; align-items: end;">
             <div>
@@ -357,7 +412,7 @@
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="../../scripts.js"></script>
 </body>
 
 </html>
