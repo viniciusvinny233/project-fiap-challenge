@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
     <title>EcoNNect</title>
     <link rel="stylesheet" href="../../styles.css">
     <link rel="shortcut icon" href="../img/coins_logo.png" type="image/x-icon" />
@@ -41,10 +41,9 @@
             </div>
             <div style="display: flex; padding: 20px; justify-content: center; flex-direction: column;">
                 <div style="display: flex; margin-bottom: -50px; cursor: pointer;">
-                    <img src="../img/checkicon.png" alt="Logo" class="logo"
-                        style="margin-bottom: 40px; width: 80px; margin-top: 18px;">
+                    <img src="../img/checkpreto.png" class="publicar-botao-select">
                     <div
-                        style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; margin-bottom: 30px; margin-left: 15px;">
+                        style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; margin-bottom: 30px; margin-left: 20px;">
                         POST</div>
                     <div
                         style=" font-family: 'Questrial', sans-serif; font-size: 20px; display: flex; align-items: center; margin: 0px 30px 30px 30px; ">
@@ -52,8 +51,7 @@
                     </div>
                 </div>
                 <div style="display: flex; ; cursor: pointer;">
-                    <img src="../img/checkpreto.png" alt="Logo" class="logo"
-                        style="margin-bottom: 40px; width: 63px; margin-top: 18px; margin-left: 9px;">
+                    <img src="../img/checkpreto.png" class="publicar-botao">
                     <div
                         style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 40px; display: flex; align-items: center; margin-bottom: 30px; margin-left: 22px;">
                         DICA</div>
@@ -219,20 +217,26 @@
             <div class="search-box">
                 <input type="text" class="input-pesquisa" placeholder="Pesquisar publicação...">
                 <div class="lista-sugestao">
-                    <div class="sugestao">Datas Comemorativas</div>
-                    <div class="sugestao">Saúde</div>
-                    <div class="sugestao">Beleza</div>
-                    <div class="sugestao">Energia</div>
-                    <div class="sugestao">Armazenamento de alimentos</div>
-                    <div class="sugestao">Restaurantes</div>
-                    <div class="sugestao">Alimentação</div>
-                    <div class="sugestao">Presentes</div>
-                    <div class="sugestao">Cosmetologia</div>
-                    <div class="sugestao">Economia</div>
+                    <div class="sugestao" id="sugestao-id">Datas Comemorativas</div>
+                    <div class="sugestao" id="sugestao-id">Saúde</div>
+                    <div class="sugestao" id="sugestao-id">Beleza</div>
+                    <div class="sugestao" id="sugestao-id">Energia</div>
+                    <div class="sugestao" id="sugestao-id">Armazenamento de alimentos</div>
+                    <div class="sugestao" id="sugestao-id">Restaurantes</div>
+                    <div class="sugestao" id="sugestao-id">Alimentação</div>
+                    <div class="sugestao" id="sugestao-id">Presentes</div>
+                    <div class="sugestao" id="sugestao-id">Cosmetologia</div>
+                    <div class="sugestao" id="sugestao-id">Economia</div>
                 </div>
             </div>
             <div class="ranking-box">
-                <h3 class="title-ranking">Ranking de Agosto</h3>
+                <div style="display: flex;">
+                    <h3 class="title-ranking">Ranking de Agosto</h3>
+                    <a href="ranking.html">
+                        <img src="../img/setaverde.png"
+                            style="width: 60px; height: 40px; margin-right: 17px; margin-top: 12px;">
+                    </a>
+                </div>
                 <div class="user">
                     <img class="box-perfil" src="../img/person1.png">
 
