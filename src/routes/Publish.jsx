@@ -127,7 +127,7 @@ const Publish = () => {
                   </>
                )}{" "}
             </PageTop>
-            <div className="conteudo-centro">
+            <div className="conteudo-centro conteudo-centro-p">
                <div style={{ display: "flex", alignItems: "center" }}>
                   <Link to="/">
                      <GreenArrow />

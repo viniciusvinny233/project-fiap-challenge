@@ -1,6 +1,6 @@
 const PitchVideo = () => {
    return (
-      <div className="conteudo-centro">
+      <div className="conteudo-centro conteudo-centro-p">
          <div className="publish-button" style={{ verticalAlign: "middle", display: "flex" }}>
             <div
             className="pitch-title"
