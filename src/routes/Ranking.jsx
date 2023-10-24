@@ -105,7 +105,7 @@ const Ranking = () => {
                </ConfigButtons>
             )}{" "}
          </div>
-         <div className="center">
+         <div className="center ">
             <PageTop>
                {shouldRenderAdditionalItems && (
                   <>

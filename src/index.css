@@ -1086,7 +1086,7 @@ span {
 
    .box-post {
       width: 50vh;
-      left: 15%;
+      left: 11%;
    }
 
    .box-title-post {
@@ -1118,6 +1118,10 @@ span {
       padding: 0 20px;
    }
 
+   .user {
+      padding: 0px 20px 20px 0px;
+   }
+
    .about-title {
       font-size: 24px;
    }
@@ -1127,16 +1131,16 @@ span {
    }
 
    .box-post {
-      width: 41vh;
-      left: 15%;
+      width: 48vh;
+      left: 7%;
    }
 
    .box-title-post {
-      width: 41vh;
+      width: 48vh;
    }
 
    .box-desc-post {
-      width: 41vh;
+      width: 48vh;
    }
 
    .text-area {
