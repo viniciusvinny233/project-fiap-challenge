@@ -135,9 +135,9 @@ const Challenges = () => {
                   </>
                )}{" "}
             </PageTop>
-            <div className="conteudo-centro">
+            <div className="conteudo-centro ">
                <div style={{ borderBottom: "1px rgb(55, 55, 55) solid", margin: "0 -40px" }}>
-                  <div style={{ margin: "0px 40px 40px 40px" }}>
+                  <div style={{ margin: "0px 30px 40px 30px" }}>
                      <ChallengesHeader>
                         <ChallengesTitle title="Desafio Agosto" />
                         <ChallengesButton title="Ver Desafios de Outros Meses" />
