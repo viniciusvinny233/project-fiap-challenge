@@ -1,0 +1,1163 @@
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   margin: 0;
+   color: white;
+   font-family: "Poppins", sans-serif;
+   overflow-y: auto;
+   background-color: #132122;
+}
+
+/* Personalizando a barra de rolagem */
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #132122;
+   border-left: 1px solid rgb(55, 55, 55);
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #00bf36;
+   border-radius: 6px;
+   border: 2px solid #132122;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background-color: #009926;
+   /* Um verde um pouco mais escuro quando o mouse estiver sobre a barra */
+}
+
+.left,
+.center,
+.right {
+   border: 1px rgb(55, 55, 55) solid;
+}
+
+.topo-pagina {
+   height: 5rem;
+   padding: 0px 30px;
+}
+
+.conteudo-esquerdo,
+.conteudo-centro,
+.conteudo-direito {
+   border-top: 1px rgb(55, 55, 55) solid;
+}
+
+.conteudo-esquerdo {
+   padding: 0px 20px 20px 20px;
+}
+
+.left {
+   width: 100vh;
+   background-color: #132122;
+   font-size: 24px;
+   display: flex;
+   flex-direction: column;
+}
+
+.config-button {
+   align-items: center;
+   padding: 20px 20px 40px 20px;
+   cursor: pointer;
+   bottom: 0;
+}
+
+.icon-config {
+   margin-right: 10px;
+   display: inline-block;
+   background-color: #00bf36;
+}
+
+.center {
+   background-color: #132122;
+}
+
+.right {
+   width: 100vh;
+   background-color: #132122;
+   right: 0;
+}
+
+.logo1 {
+   display: block;
+   margin: 0 auto;
+   width: 50px;
+   margin-bottom: 40px;
+   width: 15rem;
+   margin-top: 18px;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+i {
+   margin-right: 10px;
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: #00bf36;
+   border-radius: 20px;
+}
+
+button {
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+.posts {
+   margin-top: 20px;
+}
+
+.post {
+   border: none;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 20px;
+   background-color: #0d1617;
+}
+
+.profile-pic {
+   width: 40px;
+   border-radius: 50%;
+}
+
+ul li {
+   padding: 2px 0px;
+   cursor: pointer;
+}
+
+.input-pesquisa {
+   border-radius: 15px;
+   border: none;
+   background-color: #243132;
+   font-weight: 600;
+   font-family: "Questrial", sans-serif;
+   color: white;
+   font-size: 18px;
+   margin-bottom: 15px;
+}
+
+.input-pesquisa-comment {
+   border-radius: 15px;
+   border: none;
+   background-color: #243132;
+   font-weight: 600;
+   font-family: "Questrial", sans-serif;
+   color: white;
+   font-size: 18px;
+   margin-bottom: 15px;
+   width: 67vh;
+}
+
+.lista-sugestao {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.lista-pastas {
+   display: flex;
+   width: 94vh;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.search-box {
+   font-family: "Questrial", sans-serif;
+   padding: 20px;
+   border-bottom: 1px rgb(55, 55, 55) solid;
+}
+
+.filter-box {
+   font-family: "Questrial", sans-serif;
+   margin: -20px;
+}
+
+.lista-filter {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 92.7vh;
+}
+
+.maps-box {
+   font-family: "Questrial", sans-serif;
+   padding: 20px;
+}
+
+.post-button {
+   font-family: "Poppins", sans-serif;
+   border-radius: 5px;
+   background-color: #00bf36;
+   height: 3.5rem;
+   font-weight: bold;
+   font-size: 22px;
+   border: none;
+   cursor: pointer;
+}
+
+.search-box,
+.ranking-box,
+.trending-box {
+   margin-bottom: 20px;
+}
+
+.ranking-box {
+   border-bottom: 1px rgb(55, 55, 55) solid;
+}
+
+input[type="text"] {
+   width: 100%;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.title-ranking {
+   font-size: 35px;
+   padding-left: 20px;
+   padding-bottom: 30px;
+   color: #d9d9d9;
+   margin: 0;
+   line-height: 100%;
+}
+
+.box-perfil {
+   width: 70px;
+   height: 70px;
+   border-radius: 50px;
+}
+
+.box-perfil-member {
+   width: 12vh;
+   height: 12vh;
+   border-radius: 50px;
+}
+
+.box-perfil-ranking {
+   width: 70px;
+   height: 70px;
+   border-radius: 50px;
+}
+
+.box-perfil-post {
+   width: 55px;
+   margin-right: 10px;
+   margin-left: -6px;
+}
+
+.user {
+   display: flex;
+   align-items: center;
+   padding: 0px 20px 20px 20px;
+}
+
+.infos-perfil {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+}
+
+span {
+   margin: 0;
+   padding: 0;
+}
+
+.username {
+   font-weight: bold;
+}
+
+.username-member {
+   font-weight: bold;
+}
+
+.handle {
+   font-size: 12px;
+}
+
+.handle-ranking {
+   font-size: 12px;
+}
+
+.img-coins-ranking {
+   width: 40px;
+   padding-right: 10px;
+   height: 40px;
+   margin-top: 5px;
+}
+
+.points {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.points-ranking {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.infos-perfil {
+   margin-right: 40px;
+}
+
+.contagem-coins {
+   display: flex;
+   gap: 12px;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   width: 30%;
+   margin: auto;
+   font-family: "League Spartan", sans-serif;
+}
+
+.conteudo-centro {
+   padding: 40px;
+   width: 90vh;
+}
+
+.box-post {
+   width: 95.5vh;
+   background-color: #132122;
+   position: fixed;
+   top: 20%;
+   left: 25%;
+   bottom: 0;
+   border-radius: 40px 40px 0px 0px;
+   border: 1px rgb(99, 99, 99) solid;
+   display: none;
+}
+
+.blackout-page {
+   width: 100%;
+   height: 100%;
+   background-color: #1d3334;
+   opacity: 0.75;
+   display: none;
+   position: fixed;
+}
+
+.box-title-post {
+   border-top: 1px rgb(55, 55, 55) solid;
+   width: 95vh;
+   margin: -20px;
+   height: 14vh;
+}
+
+.box-desc-post {
+   border-top: 1px rgb(55, 55, 55) solid;
+   width: 95vh;
+   margin: -20px;
+}
+
+.hidden {
+   display: block;
+}
+
+.sugestao-select {
+   background-image: linear-gradient(to right, #00bf36, #059932);
+   margin: 10px 0px 0px 10px;
+   padding: 5px;
+   color: black;
+   border-radius: 10px;
+   font-size: 18px;
+   cursor: pointer;
+   border: 1px transparent solid;
+}
+
+.sugestao {
+   background-color: #132122;
+   margin: 10px 0px 0px 10px;
+   padding: 5px;
+   color: #8d8d8d;
+   border-radius: 10px;
+   font-size: 18px;
+   cursor: pointer;
+   border: 1px #8d8d8d solid;
+}
+
+.pastas {
+   background-image: linear-gradient(to right, #1d3334, #1d3334);
+   margin: 10px;
+   padding: 10px 20px;
+   color: white;
+   border-radius: 10px;
+   font-size: 22px;
+   cursor: pointer;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   color: #d9d9d9;
+}
+
+.pastas-select {
+   background-image: linear-gradient(to right, #00bf36, #059932);
+   margin: 10px;
+   padding: 10px 20px;
+   color: white;
+   border-radius: 10px;
+   font-size: 22px;
+   cursor: pointer;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   color: #d9d9d9;
+}
+
+.filter-map {
+   background-image: linear-gradient(to right, #1d3334, #1d3334);
+   margin: 10px;
+   padding: 10px 20px;
+   color: white;
+   border-radius: 10px;
+   font-size: 22px;
+   cursor: pointer;
+   font-weight: 600;
+   font-family: "Poppins", sans-serif;
+   color: #d9d9d9;
+}
+
+.publicar-botao {
+   margin-bottom: 40px;
+   width: 63px;
+   margin-top: 18px;
+   margin-left: 9px;
+   border-radius: 100px;
+   border: 1px black solid;
+}
+
+.publicar-botao-select {
+   margin-bottom: 40px;
+   width: 63px;
+   margin-top: 18px;
+   margin-left: 9px;
+   background-color: #04a433;
+   border-radius: 100px;
+   border: 1px black solid;
+}
+
+/* Estilo para o dropdown content */
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #1d3334;
+   min-width: 30vh;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+   color: white;
+}
+
+.dropdown-content a {
+   color: white;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+}
+
+.dropdown-content a:hover {
+   background-color: #bebebe;
+}
+
+.post-title-p {
+   font-family: League Spartan, sans-serif;
+   font-weight: bold;
+   text-align: end;
+   margin: 0;
+   width: 200px;
+}
+
+.ranking-image {
+   width: 60px;
+   height: 40px;
+   margin-right: 17px;
+   margin-top: 12px;
+}
+
+.coins-img {
+   width: 25px;
+   padding-right: 7px;
+   height: 25px;
+   margin-top: 2px;
+}
+
+.carrot-img {
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 20px;
+   width: 100%;
+   height: 50vh;
+}
+
+.carrot-img-div {
+   width: 100%;
+   height: 50vh;
+   background-color: "#0D1617";
+   border-radius: 25px;
+   margin: 30px 0;
+}
+
+.left-icons {
+   width: 40px;
+   margin-right: 10px;
+}
+
+.publish-icon {
+   width: 50px;
+}
+
+.publish-text {
+   align-self: "center";
+   font-size: 30px;
+   margin-left: 10px;
+   font-family: Questrial, sans-serif;
+   color: #d9d9d9;
+}
+
+.mobile-menu {
+   display: none;
+   cursor: pointer;
+}
+
+.mobile-menu div {
+   width: 32px;
+   height: 2px;
+   background: #fff;
+   margin: 8px;
+   transition: 0.3s;
+}
+
+.carrot-img {
+   height: 50vh;
+}
+
+.carrot-img-div {
+   height: 50vh;
+}
+
+.publish-text {
+   font-size: 25px;
+}
+
+.post-title {
+   font-size: 20px;
+   width: 23vh;
+   margin: 0;
+   display: flex;
+   align-items: center;
+}
+
+.center {
+   width: 100vw;
+}
+
+.post-user {
+   display: flex;
+   align-items: center;
+   margin-right: 10px;
+}
+
+.hr {
+   margin: 20px 0;
+   width: 55px;
+   border: 0.5px solid #00bf36;
+   border-radius: 5px;
+}
+
+.config-div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+}
+
+.ul-div {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+.config-buttons-div {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin: 25px 0 0 0;
+}
+
+.actions-icon {
+   width: 30px;
+   margin-right: 10px;
+}
+
+.logo2 {
+   display: block;
+   margin: 0 auto;
+   width: 50px;
+}
+
+.challenges-title {
+   font-size: 32px;
+   width: 20vh;
+}
+
+.challenges-button {
+   font-size: 20px;
+   align-items: center;
+}
+
+.challenges-post-title {
+   font-size: 30px;
+}
+
+.username-ranking {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.pitch-title {
+   font-size: 38px;
+}
+
+.members-layout {
+   width: 96vh;
+   justify-content: space-between;
+   gap: 10px;
+   margin: 0 -30px;
+}
+
+.about-title {
+   font-size: 38px;
+}
+
+.message-about {
+   font-size: 18px;
+}
+
+.line-divider {
+   width: 90vh;
+}
+
+.input-comment {
+   width: 100%;
+}
+
+.img-comment {
+   width: 50px;
+}
+
+.my-img {
+   width: 50px;
+   height: 50px;
+}
+
+.green-arrow {
+   width: 43px;
+   height: 35px;
+}
+
+.text-area {
+   width: 85vh;
+}
+
+.postar {
+   margin-left: 62vh;
+}
+
+.post-p {
+   font-size: 20px;
+}
+
+.post-t {
+   font-size: 40px;
+}
+
+.tile-post {
+   font-size: 35px;
+}
+
+.div-span-ranking {
+   padding: 0px 20px 20px;
+}
+
+.span-ranking {
+   color: #53f180;
+}
+
+/* Estilo para exibir o dropdown content */
+.show {
+   display: block;
+}
+
+@media screen and (max-width: 1251px) {
+   .title-ranking {
+      font-size: clamp(15px, 25px, 30px);
+   }
+
+   .ranking-image {
+      width: 50px;
+      height: 30px;
+   }
+
+   .box-perfil {
+      width: 50px;
+      height: 50px;
+   }
+
+   .post-title-p {
+      width: 1px;
+      display: none;
+   }
+
+   .coins-img {
+      width: 18px;
+      height: 18px;
+      margin-bottom: 10px;
+   }
+
+   .points {
+      font-size: 16px;
+   }
+
+   .post-title {
+      width: 12vh;
+      font-size: 14px;
+   }
+
+   .publish-icon {
+      width: 30px;
+      height: 30px;
+   }
+
+   .publish-text {
+      font-size: 18px;
+   }
+
+   .carrot-img {
+      height: 40vh;
+   }
+
+   .carrot-img-div {
+      height: 40vh;
+   }
+
+   .user-account {
+      font-size: 12px;
+      width: 14vh;
+   }
+
+   .conteudo-centro {
+      width: auto;
+   }
+
+   .img-coins-ranking {
+      width: 20px;
+      height: 20px;
+      padding-bottom: 5px;
+   }
+
+   .username-ranking {
+      font-size: 11px;
+   }
+
+   .handle-ranking {
+      font-size: 8px;
+   }
+
+   .box-perfil-ranking {
+      width: 50px;
+      height: 50px;
+   }
+
+   .box-post {
+      width: 70vh;
+   }
+
+   .box-content {
+      gap: 20px;
+   }
+
+   .box-title-post {
+      width: 70vh;
+   }
+
+   .box-desc-post {
+      width: 70vh;
+   }
+
+   .text-area {
+      width: 63vh;
+   }
+
+   .postar {
+      margin-left: 39vh;
+   }
+}
+
+@media screen and (max-width: 1130px) {
+   .left-icons-text {
+      font-size: 17px;
+   }
+
+   .carrot-img {
+      height: 30vh;
+   }
+
+   .carrot-img-div {
+      height: 30vh;
+   }
+
+   .box-perfil-post {
+      width: 40px;
+      height: 40px;
+   }
+
+   .message {
+      font-size: 12px;
+   }
+
+   .video-iframe {
+      width: 480px;
+      height: 270px;
+   }
+}
+
+@media screen and (max-width: 1057px) {
+   .post-h {
+      height: 590px;
+   }
+
+   .members-layout {
+      width: 60vh;
+      justify-content: flex-start;
+   }
+
+   .box-post {
+      width: 60vh;
+   }
+
+   .box-title-post {
+      width: 60vh;
+   }
+
+   .box-desc-post {
+      width: 60vh;
+   }
+
+   .text-area {
+      width: 52vh;
+   }
+
+   .postar {
+      margin-left: 28vh;
+   }
+
+   .post-p {
+      font-size: 14px;
+   }
+}
+
+@media screen and (max-width: 960px) {
+   .carrot-img {
+      height: 25vh;
+   }
+
+   .carrot-img-div {
+      height: 25vh;
+   }
+
+   .post-h {
+      height: 465px;
+   }
+
+   .lista-sugestao {
+      display: none;
+   }
+   .right {
+      width: 40vh;
+   }
+
+   .config-button-span {
+      font-size: 18px;
+   }
+
+   .video-iframe {
+      width: 320px;
+      height: 180px;
+   }
+
+   .line-divider {
+      width: auto;
+   }
+}
+
+@media screen and (max-width: 834px) {
+   .config-button-span {
+      display: none;
+   }
+
+   .left {
+      width: 10vh;
+   }
+
+   .right {
+      display: none;
+   }
+
+   .logo1 {
+      margin-top: 10px;
+      margin-bottom: 0;
+      width: 10rem;
+   }
+
+   .left-icons {
+      padding-left: 10px;
+      width: 30px;
+   }
+
+   .hr {
+      width: 30px;
+   }
+
+   .username,
+   .handle {
+      font-size: 10px;
+   }
+
+   .actions-icon {
+      width: 18px;
+   }
+
+   .topo-pagina {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      height: auto;
+   }
+
+   .points {
+      color: #d9d9d9;
+      font-size: 18px;
+   }
+
+   .coins-img {
+      padding: 10px 56px 10px 0;
+   }
+
+   .lista-pastas {
+      width: 90vw;
+   }
+
+   .pastas {
+      padding: 5px 10px;
+      font-size: 16px;
+   }
+
+   .challenges-title {
+      font-size: 26px;
+      width: 18vh;
+   }
+
+   .challenges-button {
+      font-size: 20px;
+   }
+
+   .lista-filter {
+      width: auto;
+      margin-right: 10px;
+   }
+
+   .pitch-title {
+      font-size: 24px;
+   }
+
+   .video-iframe {
+      width: 480px;
+      height: 270px;
+   }
+
+   .members-layout {
+      width: 80vh;
+      justify-content: flex-start;
+   }
+
+   .input-comment {
+      width: 80%;
+   }
+
+   .green-arrow {
+      width: 38px;
+      height: 28px;
+   }
+
+   .conteudo-centro-p {
+      padding: 40px 20px;
+   }
+}
+
+@media screen and (max-width: 834px) {
+   .challenges-button {
+      font-size: 14px;
+   }
+
+   .challenges-img {
+      padding-bottom: 5px;
+   }
+
+   .challenges-post-title {
+      font-size: 26px;
+   }
+}
+
+@media screen and (max-width: 735px) {
+   .box-post {
+      left: 18%;
+   }
+}
+
+@media screen and (max-width: 670px) {
+   .members-layout {
+      width: 60vh;
+      justify-content: flex-start;
+   }
+
+   .box-post {
+      width: 50vh;
+      left: 21%;
+   }
+
+   .box-title-post {
+      width: 50vh;
+   }
+
+   .box-desc-post {
+      width: 50vh;
+   }
+
+   .text-area {
+      width: 42vh;
+   }
+
+   .postar {
+      margin-left: 19vh;
+   }
+
+   .post-t {
+      font-size: 28px;
+   }
+
+   .tile-post {
+      font-size: 28px;
+   }
+}
+
+@media screen and (max-width: 590px) {
+   .video-iframe {
+      width: 320px;
+      height: 180px;
+   }
+
+   .img-comment {
+      width: 30px;
+      height: 30px;
+   }
+
+   .my-img {
+      width: 30px;
+      height: 30px;
+   }
+
+   .box-post {
+      width: 44vh;
+      left: 21%;
+   }
+
+   .box-title-post {
+      width: 44vh;
+   }
+
+   .box-desc-post {
+      width: 44vh;
+   }
+
+   .text-area {
+      width: 36vh;
+   }
+
+   .postar {
+      margin-left: 13vh;
+   }
+
+   .post-p-span {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .members-layout {
+      width: 40vh;
+      justify-content: flex-start;
+      gap: 30px;
+      padding: 0 20px;
+   }
+
+   .about-title {
+      font-size: 24px;
+   }
+
+   .message-about {
+      font-size: 13px;
+   }
+
+   .box-post {
+      width: 41vh;
+      top: 30%;
+      left: 23%;
+   }
+
+   .box-title-post {
+      width: 41vh;
+   }
+
+   .box-desc-post {
+      width: 41vh;
+   }
+
+   .text-area {
+      width: 24vh;
+   }
+
+   .postar {
+      margin-left: 5vh;
+      margin-bottom: 15px;
+   }
+
+   .tile-post {
+      font-size: 24px;
+   }
+}
+
+@media screen and (max-width: 417px) {
+   .box-post {
+      width: 41vh;
+      top: 37%;
+      left: 22.4%;
+      border-radius: 40px 40px 0 0;
+   }
+}
